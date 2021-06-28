@@ -1,0 +1,7 @@
+com/SerenityRestAssured/packages/testcases/RunDeleteService.class
+com/SerenityRestAssured/packages/stepFiles/GetRequestSteps.class
+com/SerenityRestAssured/packages/stepFiles/PostRequestSteps.class
+com/SerenityRestAssured/packages/BasePackage/TestBase.class
+com/SerenityRestAssured/packages/testcases/RunPostService.class
+com/SerenityRestAssured/packages/testcases/RunGetAllServices.class
+com/SerenityRestAssured/packages/stepFiles/DeleteRequestSteps.class

@@ -1,0 +1,7 @@
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/testcases/RunPostService.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/BasePackage/TestBase.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/testcases/RunDeleteService.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/testcases/RunGetAllServices.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/stepFiles/PostRequestSteps.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/stepFiles/DeleteRequestSteps.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/stepFiles/GetRequestSteps.java
