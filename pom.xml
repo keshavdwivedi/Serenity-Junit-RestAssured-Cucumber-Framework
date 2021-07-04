@@ -11,14 +11,20 @@
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
-        <serenity.version>2.4.34</serenity.version>
-        <serenity.restassured.version>2.4.34</serenity.restassured.version>
+        <serenity.version>2.0.81</serenity.version>
+        <serenity.cucumber.version>1.9.45</serenity.cucumber.version>
+        <serenity.restassured.version>2.0.81</serenity.restassured.version>
         <serenity.maven.version>2.0.81</serenity.maven.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <restassured.version>4.4.0</restassured.version>
         <encoding>UTF-8</encoding>
     </properties>
     <dependencies>
+        <dependency>
+            <groupId>net.serenity-bdd</groupId>
+            <artifactId>serenity-cucumber</artifactId>
+            <version>${serenity.cucumber.version}</version>
+        </dependency>
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
@@ -74,11 +80,7 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <includes>
-                       <!-- <include>**/testcases/**/*.java</include>
-                        <include>**/testcases/*.java</include>-->
-                        <include>**/testcases/RunPostService.java</include>
-                        <include>**/testcases/RunDeleteService.java</include>
-                        <include>**/testcases/RunGetAllServices.java</include>
+                        <include>**/runner/*.java</include>
                     </includes>
                 </configuration>
                 <executions>

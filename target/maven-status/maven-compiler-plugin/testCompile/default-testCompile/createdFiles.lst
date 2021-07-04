@@ -1,7 +1,11 @@
-com/SerenityRestAssured/packages/testcases/RunDeleteService.class
-com/SerenityRestAssured/packages/stepFiles/GetRequestSteps.class
-com/SerenityRestAssured/packages/stepFiles/PostRequestSteps.class
-com/SerenityRestAssured/packages/BasePackage/TestBase.class
-com/SerenityRestAssured/packages/testcases/RunPostService.class
-com/SerenityRestAssured/packages/testcases/RunGetAllServices.class
+com/SerenityRestAssured/packages/stepDefinitions/GetAllServiceStepDefs.class
+com/SerenityRestAssured/packages/apiCalls/DeleteServiceCall.class
+com/SerenityRestAssured/packages/stepFiles/GetAllRequestSteps.class
+com/SerenityRestAssured/packages/stepDefinitions/PostServiceStepDefs.class
+com/SerenityRestAssured/packages/apiCalls/PostServiceCall.class
 com/SerenityRestAssured/packages/stepFiles/DeleteRequestSteps.class
+com/SerenityRestAssured/packages/runner/CukeRunner.class
+com/SerenityRestAssured/packages/basePackage/TestBase.class
+com/SerenityRestAssured/packages/stepFiles/PostRequestSteps.class
+com/SerenityRestAssured/packages/apiCalls/GetServiceCall.class
+com/SerenityRestAssured/packages/stepDefinitions/DeleteServiceStepDefs.class

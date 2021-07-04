@@ -1,7 +1,11 @@
-/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/testcases/RunPostService.java
-/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/BasePackage/TestBase.java
-/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/testcases/RunDeleteService.java
-/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/testcases/RunGetAllServices.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/stepFiles/GetAllRequestSteps.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/apiCalls/PostServiceCall.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/basePackage/TestBase.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/apiCalls/DeleteServiceCall.java
 /Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/stepFiles/PostRequestSteps.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/runner/CukeRunner.java
 /Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/stepFiles/DeleteRequestSteps.java
-/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/stepFiles/GetRequestSteps.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/stepDefinitions/PostServiceStepDefs.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/stepDefinitions/DeleteServiceStepDefs.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/stepDefinitions/GetAllServiceStepDefs.java
+/Users/keshavmac/IdeaProjects/SerenityBDDRestAssured/src/test/java/com/SerenityRestAssured/packages/apiCalls/GetServiceCall.java

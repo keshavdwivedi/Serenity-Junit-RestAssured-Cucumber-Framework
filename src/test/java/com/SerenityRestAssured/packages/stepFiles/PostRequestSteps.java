@@ -1,21 +1,23 @@
 package com.SerenityRestAssured.packages.stepFiles;
 
-import com.SerenityRestAssured.packages.BasePackage.TestBase;
-import io.restassured.http.ContentType;
+import com.SerenityRestAssured.packages.apiCalls.PostServiceCall;
+import com.SerenityRestAssured.packages.basePackage.TestBase;
 import io.restassured.response.Response;
-import net.serenitybdd.rest.SerenityRest;
 import net.thucydides.core.annotations.Step;
-import java.util.HashMap;
-import java.util.Map;
 
 public class PostRequestSteps {
 
+    PostServiceCall postServiceCall=new PostServiceCall();
+
     @Step
-    public Response setPostRequestCall(String name){
-        Map<String,String>args= new HashMap<>();
-        args.put("name",name);
-        TestBase.response=SerenityRest.given().contentType(ContentType.JSON).body(args).post();
-        TestBase.response.prettyPrint();
+    public void makeService(){
+        postServiceCall.makeCreateProductRequest();
+    }
+
+
+    @Step
+    public Response setPostRequestCall(String name) {
+        TestBase.response=postServiceCall.createService(name);
         return TestBase.response;
     }
 
